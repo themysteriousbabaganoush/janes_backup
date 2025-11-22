@@ -1,0 +1,6 @@
+These are the sha256 sums for the following files:
+
+sha256sum	file name
+
+fb48c4eb7ff22bcf14100242637d02a6b37a458979344fd208293242e0ecad7d  backup_v8.py
+dbad77ada2fad3bae2970a10fecd548b7c06fbd0ff9770b31c8456cd5900008e  dist/janes_backup
