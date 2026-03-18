@@ -1,0 +1,62 @@
+# backup
+
+**backup** is a Python command-line utility for creating timestamped backups and performing direct file or folder copies with optional SHA-256 verification, conflict handling, and per-day logging.
+
+Version: **17.0**
+
+---
+
+## Features
+
+- Create timestamped backups of single files
+- Create timestamped backups of folders with recursive mode
+- Optional SHA-256 verification
+- Direct copy mode for transport or migration workflows
+- Interactive conflict handling for files and folders
+- Daily backup logs
+- Daily copy-operation logs
+- Optional man page installation
+
+---
+
+## What This Tool Does
+
+`backup` supports **two operating modes**:
+
+### 1) Backup mode
+Creates a new timestamped copy in a `Backups/` directory.
+
+Examples:
+- Back up a file beside the source
+- Back up a folder recursively
+- Optionally verify integrity using SHA-256
+- Optionally place backups in a different destination root
+
+### 2) Copy mode
+Copies a file or folder directly into a destination directory.
+
+Examples:
+- Copy a file to a transport folder
+- Copy a folder into a destination
+- Verify copied data with SHA-256
+- Handle conflicts interactively
+- Log copy activity for auditing
+
+---
+
+## Requirements
+
+- Python 3.8+ recommended
+- Standard library only
+- No third-party dependencies
+
+---
+
+## Installation
+
+Clone the repo or download the script:
+
+```bash
+git clone <your-repo-url>
+cd <your-repo-folder>
+chmod +x backup
